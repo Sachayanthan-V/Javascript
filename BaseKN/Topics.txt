@@ -53,8 +53,6 @@ Array with()
 Array Spread (...)
 
 
-
-
 String Functions : 
 ------------------------------------------------
 
@@ -90,6 +88,16 @@ String startsWith()
 String endsWith()
 
 
+Promises : 
+------------------------------------------------
 
-
-
+Promise.all()
+Promise.allSettled()
+Promise.any()
+Promise.prototype.catch()
+Promise.prototype.finally()
+Promise.race()
+Promise.reject()
+Promise.resolve()
+Promise.prototype.then()
+Promise.withResolvers()
