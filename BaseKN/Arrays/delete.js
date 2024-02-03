@@ -1,5 +1,25 @@
-let a = 10
-let b = 100
+let newlist = [ 1, 2, 3, 4, 5 ];
 
-console.log( a , b );
+console.log(newlist);
+delete newlist[3];
+console.log(newlist);
 
+
+let someEmptyItemsList = [1,,2,,3,,4,,5];
+console.log(someEmptyItemsList);
+/* Result : 
+
+[
+  1,
+  <1 empty item>,
+  2,
+  <1 empty item>,
+  3,
+  <1 empty item>,
+  4,
+  <1 empty item>,
+  5
+]
+
+
+*/

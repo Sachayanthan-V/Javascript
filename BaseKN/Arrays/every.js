@@ -8,10 +8,13 @@ const studentDataBase = [
     {name : 'robot', marks : 45 } ,
     {name : 'jarvis', marks : 89 } ,
 ]
+
+
 const isAllPassed = function(element, index, array) {
     console.log(element, index, array);
     return element >= 35;
 }
+
 const isAllStudentPassed = function(element, index, array) {
     console.log(element, element.name, element.marks ,index);
     return element.marks >= 35;
@@ -31,11 +34,26 @@ const dict = {
     "five" : 5,
     "six" : 6
 }
+
 const isNotNegative = function(element, index, array) {
     return element !== null
 }
 
-console.log(dict.every(isNotNegative))
-
+// console.log(dict.every(isNotNegative))
 // console.log(array1.every(isBelowThreshold));
 // Expected output: true
+
+function printIncomingElement (element, index, array) {
+    console.log(element);
+    return true
+}
+
+var tripleIT = (element, index, array) => {
+    console.log( element.length * 3);
+    return true
+}
+
+let PracEvery = ['sachin', 'robot', 'friday' ,'jarvis', 'edith'];
+
+PracEvery.every(printIncomingElement);
+PracEvery.every(tripleIT);

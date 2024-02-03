@@ -40,3 +40,19 @@ while (true) {
 { value: undefined, done: true }
 */
 
+var EntriesPracticelist = ['sachin', 'robot', 'friday' ,'jarvis', 'edith'];
+var checkerList = EntriesPracticelist.entries();
+
+let a = null;
+a = checkerList.next();
+console.log(a, a.value);
+a = checkerList.next();
+console.log(a, a.value);
+a = checkerList.next();
+console.log(a, a.value);
+a = checkerList.next();
+console.log(a, a.value);
+a = checkerList.next();
+console.log(a, a.value);
+a = checkerList.next();
+console.log(a, a.value);
