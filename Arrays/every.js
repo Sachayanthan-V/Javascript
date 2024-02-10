@@ -57,3 +57,6 @@ let PracEvery = ['sachin', 'robot', 'friday' ,'jarvis', 'edith'];
 
 PracEvery.every(printIncomingElement);
 PracEvery.every(tripleIT);
+
+
+// Author : SachayanthanV

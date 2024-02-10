@@ -6,32 +6,39 @@ let arr5 = [[1,2,3],[1,2,3],[1,2,3],[1,2,3],[6,7], ['sachin'] , []];
 let arr6 = [[1,2,3],[1,2,3],[1,2,3],[1,2,3],[6,7], [,,,]];
 let arr7 = [[1,2,3],[1,2,3],[1,2,3],[1,2,3],[6,7], ];
 
-// console.log(arr1);
+console.log(arr1);
 let arr = null;
-// arr = arr1.flat();
-// console.log(arr);
-// arr = arr2.flat();
-// console.log(arr);
-// arr = arr3.flat();
-// console.log(arr);
-// arr = arr4.flat();
-// console.log(arr);
-// arr = arr5.flat();
-// console.log(arr);
-// arr = arr6.flat();
-// console.log(arr);
-// arr = arr7.flat();
-// console.log(arr);
+arr = arr1.flat();
+console.log(arr);
+arr = arr2.flat();
+console.log(arr);
+arr = arr3.flat();
+console.log(arr);
+arr = arr4.flat();
+console.log(arr);
+arr = arr5.flat();
+console.log(arr);
+arr = arr6.flat();
+console.log(arr);
+arr = arr7.flat();
+console.log(arr);
 
-// arr = arr4.flat(4);
-// console.log(arr);
+arr = arr4.flat(4);
+console.log(arr);
 
 arr = arr4.flat(Infinity);
 console.log(arr);
 
 // this too will work.......... but use flat( inside give the number how many heirarchy is there.)
 
-// let c = arr.flat();
-// console.log(c);
-// let d = c.flat();
-// console.log(d);
+let c = arr.flat();
+console.log(c);
+let d = c.flat();
+console.log(d);
+
+// even if you try to do flat() if already did. it wont throw any error. it returns same.
+// So, if you are not sure. how much heirarchy present in list inside lists. then simply use arr.flat(Infinity);
+
+
+
+// Author : SachayanthanV

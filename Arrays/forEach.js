@@ -15,3 +15,7 @@ arr.forEach(async ele => {
 });
 
 console.log(sum);
+
+
+
+// Author : SachayanthanV

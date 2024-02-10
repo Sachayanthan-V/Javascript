@@ -9,3 +9,6 @@ console.log(arr1);
 // arr1.copyWithin(0, 3);
 arr1.copyWithin(3, 0);
 console.log(arr1);
+
+
+// Author : SachayanthanV

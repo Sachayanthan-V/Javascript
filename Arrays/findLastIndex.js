@@ -10,3 +10,6 @@ console.log( array.findLastIndex((ele) => ele.length === 7 ));
 console.log( array.findLastIndex((ele) => ele.length === 8 ));
 console.log( array.findLastIndex((ele) => ele.length === 9 ));
 console.log( array.findLastIndex((ele) => ele === 'jarvis' ));
+
+
+// Author : SachayanthanV

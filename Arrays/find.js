@@ -9,3 +9,7 @@ console.log( array.find((ele) => ele.length === 6 ));
 console.log( array.find((ele) => ele.length === 7 ));
 console.log( array.find((ele) => ele.length === 8 ));
 console.log( array.find((ele) => ele.length === 9 ));
+
+
+
+// Author : SachayanthanV

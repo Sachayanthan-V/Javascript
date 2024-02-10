@@ -56,3 +56,6 @@ a = checkerList.next();
 console.log(a, a.value);
 a = checkerList.next();
 console.log(a, a.value);
+
+
+// Author : SachayanthanV

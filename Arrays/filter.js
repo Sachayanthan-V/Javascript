@@ -10,3 +10,7 @@ console.log(filtered);
 let words = ['sachin', 'robot', 'friday' ,'jarvis', 'edith'];
 let filteredWords = words.filter( (word) => word.length > 5 );
 console.log(filteredWords);
+
+
+
+// Author : SachayanthanV
